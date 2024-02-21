@@ -1,0 +1,82 @@
+/* a:link{
+    color: pink;
+} */
+
+/* a:visited{
+    color: rgb(235, 76, 102);
+} */
+
+/* h1:hover{
+font-size: 4em;
+} */
+
+/* .box{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+}
+
+.box:hover{
+    background-color: blueviolet;
+} */
+
+/* a:active{
+    color: brown;
+} */
+
+/* #my-input:focus{
+background-color: coral;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background: url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.box:hover{
+    background: url("https://marketplace.canva.com/EAFCO6pfthY/1/0/1600w/canva-blue-green-watercolor-linktree-background-F2CyNS5sQdM.jpg") no-repeat center;
+
+} */
+/* 
+p[class] {
+    color: cyan;
+}
+
+p[class="dog"] {
+    color: rgb(11, 60, 60);
+}
+
+p[class~="para2"] {
+    color: rgb(101, 200, 115);
+} */
+
+
+/* img{
+  
+    min-width: 300px;
+    max-width: 400px;
+} */
+
+/* .container{
+    width: 300px;
+    height: 300px;
+    background-color: cornflowerblue;
+    overflow: hidden;
+    overflow: scroll;
+   
+
+} */
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(247, 182, 240);
+    /* border-width: 5px 2px 8px 2px; 
+    border-style: solid dashed dotted double;
+    border-color: black red green coral; */
+    
+    border: 3px dotted #0088dd;
+}
