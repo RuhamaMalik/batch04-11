@@ -1,0 +1,327 @@
+/* td {
+    border: 1px solid #0088dd;
+    padding: 15px;
+}
+
+table.one {
+    empty-cells: show;
+}
+
+table.two {
+    empty-cells: hide;
+} */
+
+/* .input:focus{
+    border :none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.461);
+} */
+
+/* .btn{
+    border :none;
+    outline: none; 
+    background-color: blueviolet;
+    color: white;
+    padding: .5em 1em;
+   cursor:crosshair;
+}
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+} */
+
+/* form{
+    width: 500px;
+    height: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+
+span{
+width: 200px;
+background-color: aqua;
+}
+
+.input>input{
+    width: 60%;
+    } */
+
+/* *{
+        margin: 0;
+        padding: 0;
+    }
+    .box{
+        width: 200px;
+        height: 200px; 
+        background-color: aqua;
+        display: inline-block;
+    } */
+/* 
+    .box2{
+        width: 200px;
+        height: 200px; 
+        background-color: rgb(14, 78, 78);
+        display: inline-block;
+    } */
+/* .main{
+    width: 300px;
+    height: 300px;
+    background-color: aqua; 
+    position: relative;  
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(23, 46, 46);
+    position: absolute;
+    top: 30%;
+    right: 0;
+    left: 100px;
+} */
+
+/* position: fixed;
+top: 0;
+left: 0;
+right: 0; */
+
+/* .header{
+background-color: black;
+color: white;
+padding: 0 1em;
+
+position: sticky;
+top: 100px;
+}
+
+.header> h1, .header>div{
+    display: inline-block;
+}
+
+.header> h1{
+    width: 35%;
+} */
+/* .tabs{
+    background-color: aqua;
+    width: 60%;
+}
+.tabs a{
+    text-decoration: none;
+    color: white;
+    margin-left: 100px;
+}
+
+.para{
+   margin-top: 100px;
+} */
+
+/* 
+.cart{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.num, .num2{
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%; 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.num2{
+  left: 0;
+  top: 70%;  
+} */
+
+/* .one, .two{
+    height: 100px;
+    width: 100px;
+}
+
+.one{
+    background-color: black;
+    position: relative;
+    z-index: 2;
+}
+
+.two{
+    background-color: pink;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    z-index: -1;
+} */
+
+/* blockquote {
+    float: right;
+    width: 275px;
+    font-size: 130%;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    border-top: 1px solid #665544;
+    border-bottom: 1px solid #665544;
+}
+
+.clear{
+    clear: both;
+} */
+
+form {
+    margin-top: 3em;
+    width: 500px;
+    height: 300px;
+    padding: 2em 1em;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  }
+  input {
+    display: inline-block;
+    border: none;
+    outline: none;
+    margin-left: 2em;
+    height: 100%;
+    border-bottom: 1px solid rgba(168, 164, 164, 0.807);
+    width: 75%;
+  }
+  input:focus {
+    border-bottom: 1px solid rgba(161, 6, 117, 0.807);
+    background-color: rgba(128, 128, 128, 0.347);
+  }
+  
+  .input {
+    margin: 2em 0;
+    height: 40px;
+  }
+  button {
+    padding: 1em 2em;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+  } 
+
+
+/* LANDING PAGE */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  header */
+.header {
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+    width: 100vw;
+}
+
+.logo,
+.tabs {
+    display: inline-block;
+}
+
+.logo {
+    width: 25%;
+}
+
+.tabs {
+    width: 72%;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: white;
+    margin-right: 8%;
+}
+
+.tabs a:hover {
+    color: pink;
+}
+
+/*  home */
+
+.home {
+    width: 100vw;
+    height: 90vh;
+    background: url(https://t3.ftcdn.net/jpg/02/55/22/68/360_F_255226859_Rhqr5hflr2esVXHQE1sS1bWxmZxs0gWI.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 25vh;
+}
+
+.content {
+    height: 300px;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.514);
+    margin: 0 auto;
+    padding: 1em;
+    text-align: justify;
+    color: white;
+}
+
+.content h1 {
+    font-size: 3em;
+}
+
+.content p {
+    color: rgba(255, 255, 255, 0.644);
+    line-height: 1.5em;
+    padding: 1em;
+    font-size: 1.2em;
+}
+
+.btn {
+    padding: 1em 2em;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    padding: 1em 2.2em;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+        rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.cards {
+    height: 60vh;
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    height: 200px;
+    margin-top: 1em;
+    padding: 1em;
+    background-color: green;
+    color: white;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+/* border-image-source: url(https://st3.depositphotos.com/9237796/17547/i/450/depositphotos_175473144-stock-illustration-bouquet-flower-frame-in-a.jpg);
+    border-image-slice: 20%;
+    border-image-width: 40px;
+    border-image-outset: 15px;
+    border-image-repeat:round; */
+/* .border {
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+
+    margin: 30px;
+    border-image: url(https://global.discourse-cdn.com/sitepoint/original/3X/1/8/1872fef2caaeef17e40d7e0ddeb4dbda2f91f788.png) 10% / 40px / 10px round;
+
+} */
