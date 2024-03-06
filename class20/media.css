@@ -1,0 +1,56 @@
+.box{
+    background-color: pink;
+    width: 400px;
+    height: 400px;
+}
+
+
+h1{
+    font-size: 4.5em;
+}
+
+img{
+    width: 400px;
+}
+
+/* @media only screen and (min-width:400px) {
+    .box{
+        background-color: rgb(162, 71, 86);
+        width: 100%;
+       
+    }
+} */
+
+/* @media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (orientation: portrait) {
+    body {
+      background-color: rgb(29, 63, 75);
+    }
+  } */
+
+
+  /* @media only screen and (max-width:400px) {
+    .box{
+        background-color: rgb(162, 71, 86);
+        width: 100%;
+       
+    }
+
+    h1{
+        font-size: 2em;
+    }
+
+} */
+
+
+@media  screen and (min-width:400px  ) and (max-width:600px){
+    .box{
+        background-color: rgb(43, 6, 12);
+       
+    }
+}
