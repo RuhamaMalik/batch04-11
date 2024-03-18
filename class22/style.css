@@ -1,0 +1,67 @@
+/* .parent{
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  padding: 1em 0;
+}
+
+.content{
+    background-color: aqua;
+    width: 45%;
+}
+
+.img{
+    background-color: rgb(45, 70, 70);
+} */
+
+.box {
+    display: flex;
+    gap: 1em;
+    /* overflow-x: scroll;
+scrollbar-width:none; */
+}
+
+.chil {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    /* flex-shrink: 0; */
+}
+
+/* .box3 {
+    order: 2;
+}
+
+.box1 {
+    order: 4
+}
+
+.box2 {
+    order: 1;
+}
+
+.box4 {
+    order: 3
+} */
+
+/* .navbar{
+    height: 100px !important;
+} */
+.nav-item a{
+    color: white !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+
+.carousel{
+    height: 50vh !important;
+}
+
+img{
+    height: 50vh !important;
+  
+}
