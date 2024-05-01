@@ -145,7 +145,7 @@ Expression: combination of
 // .. pre-increament
 // var num = 1;
 
-// console.log(num); // 1
+// // console.log(num); // 1
 
 // num = ++num;
 
@@ -158,14 +158,108 @@ Expression: combination of
 // console.log(num); // 1
 
 // num = num++;
-// console.log(num);
+// console.log(num); //
 
-var num = 1; // 4
-var result = num++ + num++ + ++num;
-   //      =  1    +  2    +   4
+// Example
 
-   console.log(result);
-   console.log(num);
+// var num = 1; // 4
+// var result = num++ + num++ + ++num;
+//    //      =  1    +  2    +   4
+
+//    console.log(result);
+//    console.log(num);
+
+
+// var value = 5; //
+// var result = value + value++ + ++value  - 2;
+// //             5   +   5      +   7     - 2
+
+// console.log(result); //15
+
+
+// var a = 7; // 8
+// var b = 4; // 7
+// var c = 2; // 3
+
+// var result = ++a - b + c++ + ++b - 6 + ++b + ++b + c;
+//               8  - 4 +  2  +  5  - 6 +   6  +  7 + 3
+
+// console.log(result);
+
+
+///////////////// Decreament (--)
+
+// var num = 2;
+
+// num--;
+// --num;
+
+// console.log(num); // 1
+
+
+// var a = 6; // 5 
+// // a = --a;
+
+// a = a-- + a;
+// //   6  +  5
+// console.log(a); // 11
 
 
 
+// var a = 20; //19
+// var b = 5; // 3
+// var c = 10; // 9
+
+// var result = c +  --b + --b + c-- + --a;
+// //           10 +  4  +   3  + 10 +  19  = 46
+
+// console.log("result = " , result);
+// console.log("variable a = ", a );
+// console.log("variable b = ", b );
+// console.log("variable c = ", c );
+
+
+// var a = 3; //  0
+// var b = 7; //  7
+// var c = 9; //  9
+
+// var result = ++b - c-- + ++b + --b - --a + a-- - --a + ++c - --b;
+// //            8  -  9  +   9 +  8  -   2 +  2  -  0  +   9 -   7
+
+//BODMAS
+// console.log(result); //18
+
+// console.log((3 +1) *4);
+// console.log(4 * (2 +3) *3); // 4 * 5 * 3 = 17
+
+
+//////////// cOnCATENATION
+
+// console.log(2 + 2); //4
+// console.log("2", 2); // 2 2
+// console.log("2" + 2); // 22
+// console.log('my age is = ' + 2); // 
+
+
+// console.log(5 - "2"); // 3
+
+// console.log(1 + 1 + '2' + 6 + 1); // 2261 
+// console.log(1 + 1 + '2' + ( 6 + 1) ); // 
+//             1 + 1  + '2'  + 7
+//                2 + '2'  + 7
+//                   '22'  + 7 
+//                       227
+
+// var fName = "Ruhama";
+// var lastName = "Gull"
+// console.log(fName + " " + lastName);
+
+
+// ASSIGNMENT OPERATORS
+// var a = 2;
+
+// a = a+2;
+// a += 2;
+
+// a -= 1;
+// console.log(a);
